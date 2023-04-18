@@ -1,0 +1,362 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f9f9f9;
+  }
+  
+   a{
+      text-decoration:none;
+   }
+   .nav-bar{
+      background-color: #f9f9f9;
+      width: 100%;
+      border: 1px solid black;
+    }
+   .nav-hold{
+     display:block;
+     width: 90%;
+   }
+   .nav-logo{
+      float: left;
+      display: block;
+      padding: 30px 0px 20px 20px;
+      font-weight: 600;
+    }
+   .nav-logo a{
+      color: black;
+    }
+   .nav-items{
+      float: right
+    }
+   .nav-items li{
+      display:block;
+      float: left;
+      padding: 10px 20px;
+      margin-left:10px;
+      margin-top: 20px;
+    }
+   .nav-items li a {
+      color: black;
+    }
+   .nav-items li:hover {
+      border-left:3px solid #CDCDD3;
+      border-right:3px solid #CDCDD3;
+      text-decoration: underline;
+    }
+   .nav-hold{
+      overflow:hidden;
+    }
+   .nav-menu{
+      display: none;
+    }
+    .headpic{
+      margin-top: 20px;
+      margin-bottom: 20px;
+      width: 1250px;
+    }
+    h1{
+      text-align: center;
+      width: 600px;
+      margin-left: 350px;
+      margin-top: 10px;
+    }
+    .headp{
+      text-align: center;
+      font-size: small;
+      margin-top: 10px;
+      margin-left: 515px;
+      margin-bottom: 20px;
+      width: 250px;
+    }
+    .headhr{
+      width: 400px;
+      margin-left: 500px;
+      margin-bottom: 20px;
+      border: 1px solid black;
+    }
+    .dpic{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 120px;
+        margin-bottom: 20px;
+    }
+    .dpwrd{
+        margin-right: 100px;
+        margin-left: 5px;
+    }
+    .imgdp{
+        border-radius: 30px;
+    }
+    .next{
+        align-items: center;
+        width: 500px;
+        margin: auto;
+        padding-bottom: 50px;
+    }
+    h3{
+        margin: auto;
+        align-items: center;
+        width: 300px;
+        margin-bottom: 20px;
+    }
+    .list{
+      width: 400px;
+      margin: auto;
+    }
+    .li{
+      margin: 10px 0px;
+    }
+    .twitter{
+      display: flex;
+      margin: auto;
+      align-items: center;
+      width: 600px;
+      padding-bottom: 20px;
+    }
+    .twitter2{
+      display: flex;
+      width: 300px;
+      border: 1px solid #eaeaea;
+      padding: 10px 60px;
+      /* margin-top: 40px; */
+    }
+    hr{
+      border: 1px solid #eaeaea;
+      margin:20px auto ;
+      width: 490px;
+    }
+    .mika{
+      width: 450px;
+      margin-right: 35px;
+      font-size: 16px;
+    }
+    .mika1{
+      margin-right: 20px;
+      border-radius: 40px;
+    }
+    .eye{
+      display: flex;
+      margin: 40px auto;
+      width: 50px;
+    }
+    .po{
+      border-radius: 15px;
+      border: 2px solid ;
+      width: 20px;
+      height: 30px;
+      background: white;
+    }
+    .po2{
+      border-radius: 15px;
+      border: 2px solid ;
+      width: 20px;
+      height: 30px;
+      margin-left: -4px;
+      background: white;
+    }
+    .o{
+      width: 11px;
+      height: 13px;
+      margin-top: 13px;
+      margin-left: 4px;   
+    }
+    .eyehr{
+      border: 1px solid black;
+      width: 1200px;
+      margin-top: -55px;
+    }
+    h2{
+      margin: 40px auto;
+      width: 200px;
+      align-items: center;
+    }
+
+    .grid-container{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      width: 70%;
+      gap: .5rem;
+      margin: auto;
+      padding-bottom: 50px;
+    }
+    .grid-container > div{
+      width: 250px;
+    }
+    .grid-container > div > img{
+      width: 100%;
+    }
+    .pic3{
+      display: flex;
+      margin: auto;
+      max-width: 950px;
+      gap: 30px;
+      padding-bottom: 30px;
+    }
+    .card{
+      border:1px solid black;
+      width: 350px;
+      height: 180px;
+      margin: auto;
+      border-top: 6px solid;
+      color: #000000;
+    }
+    h4{
+      font-size: larger;
+      padding-top: 30px;
+      text-align: center;
+      color: #000000;
+    }
+    .b{
+      color: #000000;
+    }
+    .cardp{
+      width: 350px;
+      text-align: center;
+      padding: 10px;
+    }
+    .input{
+      display: flex;
+      justify-content: center;
+    }
+    button{
+      background: black;
+      color: white;
+      border: solid black;
+    }
+    footer {
+      background-color: #000000;
+      color: white;
+      margin-top: 50px;
+  }
+  b {
+      width: 132px;
+      color: white;
+  }
+  .foot{
+     align-items: center;
+     justify-content: center;
+     display: flex;
+     flex-direction: column;
+     width: 600px;
+     margin: 50px auto;
+     gap: 20px;
+  
+  }
+  h5 {
+      text-align: center;
+      padding-top: 10px;
+  }
+  .footh3{
+    text-align: center;
+  }
+  d1{
+      display: flex;
+      text-align: center;
+      gap: 45px;
+      margin: auto;
+      width: 300px;
+      padding-bottom: 40px; 
+  }
+  dt{
+    color: white;
+    border-bottom: 1px solid;
+    margin-left: 30px;
+  }
+  .footerp2{
+    padding-bottom: 20px;
+  }
+
+
+  @media screen and (max-width: 768px){
+    body{
+      width: 100%;
+    }
+    .nav-menu{
+      display: block;
+      float: right;
+      padding: 25px 20px;
+      cursor: pointer;
+      color: black;
+    }
+    .nav-items{
+      width: 100%;
+      float: left;
+      height: 0px;
+      padding:0px;
+      margin:0px;
+      
+    }
+    .nav-items li{
+      width: 100%;
+      display: block;
+    } 
+    .headpic{
+      width: 100%;
+      float: right;
+    }
+    h1{
+      float: right;
+      width: 100%;
+      padding: 5px;
+    }
+    .headp{
+      width: 100%;
+      float: right;
+    }
+    .headhr{
+      width: 100%;
+      float: right;
+    }
+    .dpic{
+      width: 100%;
+      margin: auto;
+    }
+    .next{
+      width: 100%;
+      margin: auto;
+      padding: 10px;
+    }
+    .list{
+      width: 100%;
+      padding: 10px;
+    }
+    .twitter{
+      width: 100%;
+      margin: auto;
+    }
+    hr{
+      width: 100%;
+    }
+    .eyehr{
+      width: 100%;
+    }
+    .grid-container{
+      display: grid;
+      grid-template-columns: 1fr ;
+      width: 100%;
+      padding: 10px;
+
+    }
+    .grid-container > div{
+      width: 100%;
+    }
+    footer{
+      background-color: black;
+    }
+   .foot{
+    width: 100%;
+    margin: auto;
+   }
+  }
+  
+  .nav-open{
+    height: auto;
+  }
+  
+  
+  
